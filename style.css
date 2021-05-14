@@ -1,5 +1,5 @@
 :root {
-  font-size: 16px;
+  font-size:16px 40px;
   font-family: 'Rubik';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
@@ -13,6 +13,19 @@
   overflow-x: hidden;
   scrollbar-width: thin;
 }
+
+.english {
+  color: #394e86;
+}
+
+.hungarian {
+  color: white;
+}
+
+
+
+
+
 
 body {
   background-image: url(/img/bg_02.png);
@@ -72,9 +85,20 @@ main {
   padding: 1rem;
 }
 
+
+.mome_4
+{
+
+  width: 25vw;
+  float: center;
+  display:inline;
+  margin-bottom: 1rem;
+}
+
+
 .mate{
   max-height: 35vh;
-  max-width: 40vw;
+  max-width: 25vw;
   float: left;
   display:inline;
 
@@ -120,7 +144,7 @@ LINKEK
 
 /* visited link */
 a:visited {
-  color: #394E86;
+  color: hsl(224, 40%, 50%);
   text-decoration: none;
 }
 
@@ -273,13 +297,13 @@ a:active {
 /* Large screens */
 @media only screen and (min-width: 600px) and  (max-width: 1400px) {
   :root {
-    font-size: 16px;
+    font-size: 16px; /*16px*/
   }
 }
 
 @media only screen and (min-width: 1400px) {
   :root {
-    font-size: 20px;
+    font-size: 1vw; /*20px*/
   }
 }
 
