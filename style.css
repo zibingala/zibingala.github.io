@@ -18,6 +18,8 @@
   color: #394e86;
 }
 
+
+
 .hungarian {
   color: white;
 }
@@ -102,6 +104,15 @@ main {
   margin-bottom: 1rem;
 }
 
+.mome_5
+{
+
+  width: 25vw;
+  float: center;
+  display:block;
+  margin-bottom: 1rem;
+}
+
 
 .mate{
   max-height: 35vh;
@@ -135,6 +146,29 @@ FLEXBOX
 
 
 
+.static:hover {
+  opacity:0;
+}
+
+.moving{
+  opacity: 0;
+  position: absolute;
+}
+
+.moving:hover {
+  opacity:1;
+}
+
+
+
+.center{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
 
 
 
